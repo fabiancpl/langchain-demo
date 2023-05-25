@@ -9,7 +9,7 @@ class PDFChatbot:
     def __init__(self):
         self.chain = None
         self.chat_history = []
-        self.vector_dir = "src/data/chroma"
+        self.vector_dir = "data/chroma"
         self.collection_name = "pnd-2023"
 
     def make_chain(self) -> ConversationalRetrievalChain:

@@ -14,8 +14,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 class PDFIngestor:
     def __init__(self):
-        self.file_path = "src/data/pnd-2023.pdf"
-        self.vector_dir = "src/data/chroma"
+        self.file_path = "data/pnd-2023.pdf"
+        self.vector_dir = "data/chroma"
         self.collection_name = "pnd-2023"
 
     def _extract_metadata_from_pdf(self, file_path: str) -> dict:
