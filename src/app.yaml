@@ -1,4 +1,4 @@
-service: langchain-demo
+service: default
 runtime: custom
 env: flex
 manual_scaling: 
