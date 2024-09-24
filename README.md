@@ -6,4 +6,4 @@ As use case, an official document known as the National Development Plan was ing
 
 This experiment was inspired by the [Edrickdch' work](https://github.com/edrickdch/chat-pdf) and uses Langchain, ChromaDB and OpenAI's API.
 
-You can experiment with this agent directly on: https://ai.luloinc.co/
+You can experiment with this agent directly on: https://ai.luloinc.co/.
